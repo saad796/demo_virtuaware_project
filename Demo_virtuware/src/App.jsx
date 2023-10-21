@@ -1,11 +1,14 @@
 import './App.css'
+import Header from './assets/Header'
+import TechnolgySection from './assets/TechnolgySection'
 
 function App() {
  
   return (
-    <>
-      <h1>Blank Page</h1>
-    </>
+    <div>
+      <Header/>
+      <TechnolgySection/>
+    </div>
   )
 }
 
