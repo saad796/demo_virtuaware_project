@@ -1,7 +1,7 @@
-.navbar-container
+.discover-bg-container
 {
-   
-    
+  background-image: url("https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/using-new-mobile-app-.jpg");
+  background-attachment:fixed;
 }
 
 .header

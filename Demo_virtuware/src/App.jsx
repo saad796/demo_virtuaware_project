@@ -1,5 +1,5 @@
 import './App.css'
-import DigitalSection from './assets/DigitalSection'
+import DiscoverMoreSection from './assets/DiscoverMoreSection'
 import Header from './assets/Header'
 import TechnolgySection from './assets/TechnolgySection'
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header/>
       <TechnolgySection/>
-      <DigitalSection/>
+      <DiscoverMoreSection/>
     </div>
   )
 }
