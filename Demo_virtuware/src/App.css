@@ -1,9 +1,28 @@
 .discover-bg-container
 {
   background-image: url("https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/using-new-mobile-app-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment:fixed;
 }
+#menu-toggle:checked + #menu {
+  display: block;
+}
 
+.tech-container
+{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.941),rgb(251, 251, 251)),  url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.solution-upper
+{
+  background-image: url("https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2022/01/blade-servers-background.jpg"),url("https://mixkitchen.com/wp-content/uploads/2018/10/Black-Translucent-50.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
+}
 .header
 {
     background-color: rgba(30, 58, 138, 0.88);
@@ -30,4 +49,46 @@
         background-color: rgba(30, 58, 138, 0.88);
         height: 33.5px
     }  
+  }
+
+  .service-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_memphis_2.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+  }
+
+  .client-review-container
+  {
+    background-color: #050e1a;
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_memphis_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+
+  .review-card
+  {
+    background-image: url("../public/Qoutes.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: right top;
+    background-size:auto;
+  }
+
+  .review-card-container
+  {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  .review-card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .faq-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: #050e1a;
   }
