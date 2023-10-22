@@ -1,9 +1,112 @@
-.navbar-container
+.discover-bg-container
 {
-   
-    
+  background-image: url("https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/using-new-mobile-app-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#menu-toggle:checked + #menu {
+  display: block;
 }
 
+.tech-container
+{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.941),rgb(251, 251, 251)),  url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.solution-upper
+{
+  background-image: url("https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2022/01/blade-servers-background.jpg"),url("https://mixkitchen.com/wp-content/uploads/2018/10/Black-Translucent-50.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:overlay;
+}
 .header
 {
+    background-color: rgba(30, 58, 138, 0.88);
+    position: relative;
+    z-index: 1;
 }
+
+.header::after {   
+  content: "";
+  width: 100%;
+  height: 67px;
+  position: absolute;
+  bottom: -0.3%;
+  z-index: 0;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 42vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  92' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 67L50 63C100 59 200 51 300 34C400 18 500 -7 600 1C700 9 800 51 900 67C1000 84 1100 76 1150 72L1200 67V92H1150C1100 92 1000 92 900 92C800 92 700 92 600 92C500 92 400 92 300 92C200 92 100 92 50 92H0V67Z' fill='%23ffffff'/></svg>");
+  }
+  
+  @media(max-width:850px) {
+    .header::before {    
+        background-color: rgba(30, 58, 138, 0.88);
+        height: 33.5px
+    }  
+  }
+
+  .service-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_memphis_2.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+  }
+
+  .client-review-container
+  {
+    background-color: #050e1a;
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_memphis_4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
+
+  .review-card
+  {
+    background-image: url("./icons/Qoutes.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: right top;
+    background-size:auto;
+  }
+
+  .review-card-container
+  {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  .review-card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .faq-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-color: #050e1a;
+  }
+
+  .registration-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/map_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.99;
+    background-color: #050e1a;
+  }
+
+  .footer-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
+  }
