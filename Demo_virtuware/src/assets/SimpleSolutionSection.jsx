@@ -8,7 +8,8 @@ function SimpleSolutionSection() {
             <p className="text-base font-normal w-[65%] mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
             <button className="register px-4 py-2 bg-blue-500 text-white font-medium border-2 border-blue-500 hover:bg-sky-400 cursor-pointer duration-100 mt-8">Discover More</button>
         </div>
-        <div className="solution-bottom bg-white w-[100%] text-center py-48 pb-10">
+        <iframe className="mx-auto relative md:w-7/12 w-10/12 -top-32" height="315" src="https://www.youtube.com/embed/XHOmBV4js_E?si=ctoYb6JV1QcY6RDT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div className="solution-bottom bg-white w-[100%] text-center py-20 pb-10">
             <small className="text-blue-700 font-normal text-base">Featured</small>
             <h2 className=" font-bold text-5xl w-[60%] text-center m-auto my-5">Over 100,000 Company worldwide rely on <span className=" text-blue-700">Virtuware</span></h2>
             <div className="company-logo grid justify-center lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-5 place-items-center py-10">

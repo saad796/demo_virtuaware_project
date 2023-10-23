@@ -1,4 +1,7 @@
-
+import desktopImg from "../icons/icons8-multiple-devices-48.png"
+import chartImg from "../icons/icons8-chart-48.png"
+import cartImg from "../icons/icons8-buy-48.png"
+import settingImg from "../icons/icons8-setting-48.png"
 
 function DigitalSection() {
   return (
@@ -14,25 +17,34 @@ function DigitalSection() {
         <div className="right text-white p-2 pl-10 text-left">
             <h2 className="text-4xl font-bold leading-snug md:w-96 ">The value of the digital world.</h2>
 
-            <div className="list pl-20">
-                <div className="list-point mt-9 md:text-left text-center">
-                    <h4 className="text-2xl font-semibold">Business App</h4>
-                    <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+            <div className="list md:pl-16">
+                <div className="list-point mt-9 md:text-left text-center flex md:flex-row flex-col">
+                    <img className="mx-auto md:mx-1 w-16 h-16 bg-yellow-500 rounded-full p-2 bg-opacity-40" src={desktopImg} alt="desktop icon"/>
+                    <div className="text">
+                        <h4 className="text-2xl font-semibold">Business App</h4>
+                        <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                    </div>
                 </div>
-
-                <div className="list-point mt-9 md:text-left text-center">
-                    <h4 className="text-2xl font-semibold">Marketing Tools</h4>
-                    <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                <div className="list-point mt-9 md:text-left text-center flex md:flex-row flex-col">
+                    <img className="mx-auto md:mx-1 w-16 h-16 bg-blue-500 rounded-full p-2 bg-opacity-40" src={chartImg} alt="desktop icon"/>
+                    <div className="text">
+                        <h4 className="text-2xl font-semibold">Marketing Tools</h4>
+                        <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                    </div>
                 </div>
-
-                <div className="list-point mt-9 md:text-left text-center">
-                    
-                    <h4 className=" text-2xl font-semibold">eCommerce Analytics</h4>
-                    <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                <div className="list-point mt-9 md:text-left text-center flex md:flex-row flex-col">
+                    <img className="mx-auto md:mx-1 w-16 h-16 bg-green-500 rounded-full p-2 bg-opacity-40" src={cartImg} alt="desktop icon"/>
+                    <div className="text">
+                        <h4 className="text-2xl font-semibold">eCommerce Analytics</h4>
+                        <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                    </div>
                 </div>
-                <div className="list-point mt-9 md:text-left text-center">
-                    <h4 className="text-2xl font-semibold">CRM</h4>
-                    <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                <div className="list-point mt-9 md:text-left text-center flex md:flex-row flex-col">
+                    <img className="mx-auto md:mx-1 w-16 h-16 bg-slate-500 rounded-full p-2 bg-opacity-40" src={settingImg} alt="desktop icon"/>
+                    <div className="text">
+                        <h4 className="text-2xl font-semibold">CRM</h4>
+                        <p className=" md:w-[70%]">Aliquet sapien quisque euismod senectus fames inceptos non amet suspendisse etiam porta</p>
+                    </div>
                 </div>
             </div>
 

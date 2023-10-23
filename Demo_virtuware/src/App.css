@@ -69,7 +69,7 @@
 
   .review-card
   {
-    background-image: url("../public/Qoutes.png");
+    background-image: url("./icons/Qoutes.png");
     background-repeat: no-repeat;
     background-color: white;
     background-position: right top;
@@ -91,4 +91,22 @@
     background-position: top left;
     background-repeat: no-repeat;
     background-color: #050e1a;
+  }
+
+  .registration-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/map_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.99;
+    background-color: #050e1a;
+  }
+
+  .footer-container
+  {
+    background-image: url(https://show.moxcreative.com/virtuware/wp-content/uploads/sites/39/2021/12/bg_footer.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 400px auto;
   }
